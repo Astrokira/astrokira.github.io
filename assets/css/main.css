@@ -9,7 +9,7 @@ code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article1, article2, aside,
+tfoot, thead, tr, th, td, article, art, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
@@ -20,7 +20,7 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-article1, article2, aside, details, figcaption, figure,
+article, art, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
@@ -1681,7 +1681,7 @@ input, select, textarea {
 		z-index: 3;
 	}
 
-		#main article1 {
+		#main article {
 			-moz-transform: translateY(0.25rem);
 			-webkit-transform: translateY(0.25rem);
 			-ms-transform: translateY(0.25rem);
@@ -1699,7 +1699,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-			#main article1.active {
+			#main article.active {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
@@ -1707,7 +1707,7 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-			#main article1 .close {
+			#main article .close {
 				display: block;
 				position: absolute;
 				top: 0;
@@ -1720,7 +1720,7 @@ input, select, textarea {
 				white-space: nowrap;
 			}
 
-				#main article1 .close:before {
+				#main article .close:before {
 					-moz-transition: background-color 0.2s ease-in-out;
 					-webkit-transition: background-color 0.2s ease-in-out;
 					-ms-transition: background-color 0.2s ease-in-out;
@@ -1739,21 +1739,21 @@ input, select, textarea {
 					background-repeat: no-repeat;
 				}
 
-				#main article1 .close:hover:before {
+				#main article .close:hover:before {
 					background-color: rgba(255, 255, 255, 0.075);
 				}
 
-				#main article1 .close:active:before {
+				#main article .close:active:before {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
 		@media screen and (max-width: 736px) {
 
-			#main article1 {
+			#main article {
 				padding: 3.5rem 2rem 0.5rem 2rem ;
 			}
 
-				#main article1 .close:before {
+				#main article .close:before {
 					top: 0.875rem;
 					left: 0.875rem;
 					width: 2.25rem;
@@ -1765,13 +1765,13 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			#main article1 {
+			#main article {
 				padding: 3rem 1.5rem 0.5rem 1.5rem ;
 			}
 
 		}
 /*****************************/
-		#main article2 {
+		#main art {
 			-moz-transform: translateY(0.25rem);
 			-webkit-transform: translateY(0.25rem);
 			-ms-transform: translateY(0.25rem);
@@ -1789,7 +1789,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-			#main article2.active {
+			#main art.active {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
@@ -1797,7 +1797,7 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-			#main article2 .close {
+			#main art .close {
 				display: block;
 				position: absolute;
 				top: 0;
@@ -1810,7 +1810,7 @@ input, select, textarea {
 				white-space: nowrap;
 			}
 
-				#main article2 .close:before {
+				#main art .close:before {
 					-moz-transition: background-color 0.2s ease-in-out;
 					-webkit-transition: background-color 0.2s ease-in-out;
 					-ms-transition: background-color 0.2s ease-in-out;
@@ -1829,21 +1829,21 @@ input, select, textarea {
 					background-repeat: no-repeat;
 				}
 
-				#main article2 .close:hover:before {
+				#main art .close:hover:before {
 					background-color: rgba(255, 255, 255, 0.075);
 				}
 
-				#main article2 .close:active:before {
+				#main art .close:active:before {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
 		@media screen and (max-width: 736px) {
 
-			#main article2 {
+			#main art {
 				padding: 3.5rem 2rem 0.5rem 2rem ;
 			}
 
-				#main article2 .close:before {
+				#main art .close:before {
 					top: 0.875rem;
 					left: 0.875rem;
 					width: 2.25rem;
@@ -1855,7 +1855,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			#main article2 {
+			#main art {
 				padding: 3rem 1.5rem 0.5rem 1.5rem ;
 			}
 
