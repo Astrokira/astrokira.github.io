@@ -1802,6 +1802,18 @@ input, select, textarea {
 				opacity: 1;
 			}
 
+			#main article.nav ul {
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+				margin-bottom: 0;
+				list-style: none;
+				padding-left: 0;
+				border: solid 1px #ffffff;
+				border-radius: 4px;
+			}
+
 			#main article .close {
 				display: block;
 				position: absolute;
